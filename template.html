@@ -1,0 +1,71 @@
+<!--
+
+ Copyright 2012 Diomidis Spinellis
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+-->
+<div id="element">
+	<div id="basic">
+		<div id="symbolBox">
+			<div id="symbol">$symbol</div>
+		</div>
+		<span id="localName">$localName</span>
+	</div>
+	<div id="more">
+		<span style="$englishStyle">
+			<span id="englishName"><a href="http://en.wikipedia.org/wiki/$englishName">$englishName</a></span>
+			&mdash;
+		</span><span id="phase">$phase</span>
+	</div>
+	<div id="image">
+		<img id="image" src="images/elements/$englishName.jpg" style="margin-left: ${leftMarginCm}cm; margin-top: ${topMarginCm}cm" />
+	</div>
+
+	<div id="info">
+		<div id="left" class="column" >
+			<div class="property">
+				<img class="icon" src="images/number.jpg">
+				<div class="propName">$lblAtomicNumber</div>
+				<div class="propValue"><span class="propNumber">$number</span></div>
+			</div>
+			<div class="property">
+				<img class="icon" src="images/mass.jpg">
+				<div class="propName">$lblAtomicWeight</div>
+				<div class="propValue"><span class="propNumber">$mass</span></div>
+			</div>
+			<div class="property">
+				<img class="icon" src="images/density.jpg">
+				<div class="propName">$lblDensity</div>
+				<div class="propValue"><span class="propNumber">$density</span> <span class="propUnit">g·cm<sup>−3</sup></span></div>
+			</div>
+		</div>
+		<div id="right" class="column" >
+			<div class="property">
+				<img class="icon" src="images/melt.jpg">
+				<div class="propName">$lblMelt</div>
+				<div class="propValue"><span class="propNumber">$melt</span> <span class="propUnit">°C</span></div>
+			</div>
+			<div class="property">
+				<img class="icon" src="images/boil.jpg">
+				<div class="propName">$lblBoil</div>
+				<div class="propValue"><span class="propNumber">$boil</span> <span class="propUnit">°C</span></div>
+			</div>
+			<div class="property">
+				<img class="icon" src="images/soundSpeed.jpg">
+				<div class="propName">$lblSoundSpeed</div>
+				<div class="propValue"><span class="propNumber">$soundSpeed</span> <span class="propUnit">m·s<sup>−1</sup></span></div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,143 @@
+/*
+ * Copyright 2012 Diomidis Spinellis
+ *
+ *   Licensed under the Apache License, Version 2.0 (the "License");
+ *   you may not use this file except in compliance with the License.
+ *   You may obtain a copy of the License at
+ *
+ *       http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *   Unless required by applicable law or agreed to in writing, software
+ *   distributed under the License is distributed on an "AS IS" BASIS,
+ *   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *   See the License for the specific language governing permissions and
+ *   limitations under the License.
+ */
+
+@page {
+	margin: 0px 0px 0px 0px;
+	size: 210mm 297mm;
+}
+
+#pagebreak {
+	page-break-before: always;
+}
+
+#all {
+	-moz-column-count: 3;
+	-moz-column-gap: 0px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 0px;
+	column-count: 3;
+	column-gap: 0px;
+}
+
+#element {
+	width: 6cm;
+	height: 9.2cm; /* For PDF printing to PDFCreator */
+	/* height: 8.7cm; For A4 printing */
+	font-family: Sans-serif;
+	border: thin dashed black;
+	padding: 10px 10px 10px 10px;
+	margin: 0px 0px 0px 0px;
+	/* This doesn't seem to work on FF */
+	page-break-inside: avoid-column;
+}
+
+#basic {
+	margin-bottom: 10px;
+}
+
+#symbolBox {
+	line-height: 50px;
+	width: 50px;
+	background-color: lightblue;
+	float: left;
+	margin-right: 10px;
+}
+
+#symbol {
+	font-weight: bold;
+	font-size: 20pt;
+	text-align: center;
+}
+
+englishName:link, englishName:visited {
+	text-decoration: none;
+	color: black;
+}
+
+#image {
+	max-width: 5cm;
+	max-height: 4cm;
+}
+
+img#image {
+}
+
+div#image {
+	margin-left: auto;
+	margin-right: auto;
+	height: 4cm;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#info {
+	position: relative;
+	min-width: 100%;
+}
+
+.column {
+	position: absolute;
+	width: 50%;
+}
+
+#left {
+	left: 0;
+}
+
+#right {
+	right: 0;
+}
+
+.property {
+	height: 34px;
+	background-color: lightyellow;
+	margin: 2px 2px 2px 2px;
+}
+
+img.icon {
+	height: 30px;
+	width: 30px;
+	float: left;
+	vertical-align: middle;
+}
+
+.propName {
+	font-size: 8px;
+	text-align: center;
+}
+
+.propValue {
+	text-align: center;
+}
+
+.propNumber {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.propUnit {
+	font-size: 8px;
+}
+
+#localName {
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#englishName, #phase {
+	font-size: 11pt;
+}

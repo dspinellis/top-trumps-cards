@@ -1,0 +1,79 @@
+#
+# English localization
+#
+# Copyright 2012 Diomidis Spinellis
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+#
+
+# Number formatting
+thousandSeparator	,
+decimalSeparator	.
+
+# Labels
+lblAtomicNumber	Atomic number
+lblAtomicWeight	Atomic weight
+lblMelt		Melting point
+lblBoil		Boiling point
+lblDensity	Density
+lblSoundSpeed	Speed of sound
+
+# Phase names
+solid		solid
+liquid		liquid
+gas		gas
+
+# Element names
+Aluminium	Aluminium
+Arsenic		Arsenic
+Boron		Boron
+Calcium		Calcium
+Carbon		Carbon
+Chlorine	Chlorine
+Chromium	Chromium
+Cobalt		Cobalt
+Copper		Copper
+Fluorine	Fluorine
+Gold		Gold
+Helium		Helium
+Hydrogen	Hydrogen
+Iodine		Iodine
+Iron		Iron
+Lead		Lead
+Magnesium	Magnesium
+Mercury		Mercury
+Molybdenum	Molybdenum
+Neon		Neon
+Nickel		Nickel
+Nitrogen	Nitrogen
+Oxygen		Oxygen
+Phosphorus	Phosphorus
+Platinum	Platinum
+Potassium	Potassium
+Selenium	Selenium
+Silicon		Silicon
+Silver		Silver
+Sodium		Sodium
+Sulfur		Sulfur
+Tin		Tin
+Titanium	Titanium
+Uranium		Uranium
+Vanadium	Vanadium
+Zinc		Zinc
+
+# End matter
+instructionsHeader	Instructions
+instructions	The cards are divided among the players. The player who starts the game reads a number from the card on the top of the deck (e.g. "atomic number 6"). The largest number (or the smallest number for the atomic weight and density) wins, collects the other players' cards, and puts them at the back of the deck. The next number is read by the turn's winner. The player who collects all the cards wins the game.  See also the Wikipedia article <a href="http://en.wikipedia.org/wiki/Top_trumps">Top Trumps</a>.
+licenseHeader	License
+license	The chemical element game cards</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.spinellis.gr" property="cc:attributionName" rel="cc:attributionURL">Diomidis Spinellis</a> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.<br />Based on work from <a xmlns:dct="http://purl.org/dc/terms/" href="http://en.wikipedia.org" rel="dct:source">en.wikipedia.org</a>.
+attributionsHeader	Article links and image attributions

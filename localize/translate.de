@@ -1,0 +1,81 @@
+#
+# German localization
+#
+# Copyright 2012 Diomidis Spinellis
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+#
+
+# Number formatting
+thousandSeparator	,
+decimalSeparator	.
+# Labels
+lblAtomicNumber	Ordnungszahl
+lblAtomicWeight	Atommasse
+lblMelt		Schmelzpunkt
+lblBoil		Siedepunkt
+lblDensity	Dichte
+# Schallgeschwindigkeit is too long
+# Use the symbol Cs; see http://de.wiktionary.org/wiki/Schallgeschwindigkeit
+# lblSoundSpeed	Schallgeschwindigkeit
+lblSoundSpeed	<em>C<sub>S</sub></em>
+
+# Phase names
+solid		fest
+liquid		flüssig
+gas		gasförmig
+
+# Element names
+Aluminium	Aluminium
+Arsenic		Arsen
+Boron		Bor
+Calcium		Calcium
+Carbon		Kohlenstoff
+Chlorine	Chlor
+Chromium	Chrom
+Cobalt		Cobalt
+Copper		Kupfer
+Fluorine	Fluor
+Gold		Gold
+Helium		Helium
+Hydrogen	Wasserstoff
+Iodine		Iod
+Iron		Eisen
+Lead		Blei
+Magnesium	Magnesium
+Mercury		Quecksilber
+Molybdenum	Molybdän
+Neon		Neon
+Nickel		Nickel
+Nitrogen	Stickstoff
+Oxygen		Sauerstoff
+Phosphorus	Phosphor
+Platinum	Platin
+Potassium	Kalium
+Selenium	Selen
+Silicon		Silicium
+Silver		Silber
+Sodium		Natrium
+Sulfur		Schwefel
+Tin		Zinn
+Titanium	Titan
+Uranium		Uran
+Vanadium	Vanadium
+Zinc		Zink
+
+# End matter
+instructionsHeader	Anweisungen
+instructions	Die Karten werden unter den Spielern aufgeteilt. Der Spieler, der das Spiel beginnt, liest eine Zahl von der Karte auf der Oberseite des Decks (z.B. "Ordnungszahl 6"). Die größte Zahl (oder die kleinste Zahl, für die Atommasse und Dichte) gewinnt, sammelt der anderen Spieler Karten und legt sie auf der Rückseite des Decks. Die nächste Nummer wird den Gewinner gelesen. Der Spieler, der alle Karten sammelt, gewinnt das Spiel.  Siehe auch Wikipedia-Artikel <a href="http://de.wikipedia.org/wiki/Supertrumpf">Supertrumpf</a>.
+licenseHeader	Lizenz
+license	Die chemische Element Spielkarten</span> von <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.spinellis.gr" property="cc:attributionName" rel="cc:attributionURL">Diomidis Spinellis</a> sind lizenziert unter <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Namensnennung 3.0 Unported Lizenz</a>.<br /> Basiert auf Material von <a xmlns:dct="http://purl.org/dc/terms/" href="http://en.wikipedia.org" rel="dct:source">en.wikipedia.org</a>.
+attributionsHeader	Artikel Links und Bild Attributionen

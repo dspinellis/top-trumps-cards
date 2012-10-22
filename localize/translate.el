@@ -34,7 +34,7 @@ liquid		υγρό
 gas		αέριο
 
 # Element names
-Aluminium	Αλουμίνιο
+Aluminium	Αργίλιο
 Arsenic		Αρσενικό
 Boron		Βόριο
 Calcium		Ασβέστιο
@@ -58,7 +58,7 @@ Nickel		Νικέλιο
 Nitrogen	Άζωτο
 Oxygen		Οξυγόνο
 Phosphorus	Φώσφορος
-Platinum	Πλατίνα
+Platinum	Λευκόχρυσος
 Potassium	Κάλιο
 Selenium	Σελήνιο
 Silicon		Πυρίτιο

@@ -16,7 +16,7 @@
 #
 
 # Target files
-HTMLFILES=cards-en.html cards-de.html cards-el.html
+HTMLFILES=cards-de.html cards-el.html cards-en.html cards-fr.html
 
 # Source files needed to run makecards.pl
 SRCFILES=makecards.pl template.html data
@@ -32,6 +32,9 @@ cards-el.html: $(SRCFILES) localize/translate.el
 
 cards-en.html: $(SRCFILES) localize/translate.en
 	perl makecards.pl en >$@
+
+cards-fr.html: $(SRCFILES) localize/translate.fr
+	perl makecards.pl fr >$@
 
 # Fetch the elements' physical data
 data:

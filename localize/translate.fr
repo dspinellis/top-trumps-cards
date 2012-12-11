@@ -1,0 +1,81 @@
+#
+# French localization
+#
+# Copyright 2012 Diomidis Spinellis
+#
+# Modified by L. Huet
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+#
+
+# Number formatting
+thousandSeparator	.
+decimalSeparator	,
+
+# Labels
+lblAtomicNumber	Numéro atomique
+lblAtomicWeight	Masse atomique
+lblMelt		Point de fusion
+lblBoil		Point d'ébullition
+lblDensity	Masse volumique
+lblSoundSpeed	Vitesse du son
+
+# Phase names
+solid		solide
+liquid		liquide
+gas		gazeuse
+
+# Element names
+Aluminium	Aluminium
+Arsenic		Arsenic
+Boron		Bore
+Calcium		Calcium
+Carbon		Carbone
+Chlorine	Chlore
+Chromium	Chrome
+Cobalt		Cobalt
+Copper		Cuivre
+Fluorine	Fluor
+Gold		Or
+Helium		Hélium
+Hydrogen	Hydrogène
+Iodine		Iode
+Iron		Fer
+Lead		Plomb
+Magnesium	Magnésium
+Mercury		Mercure
+Molybdenum	Molybdène
+Neon		Néon
+Nickel		Nickel
+Nitrogen	Azote
+Oxygen		Oxygène
+Phosphorus	Phosphore
+Platinum	Platine
+Potassium	Potassium
+Selenium	Sélénium
+Silicon		Silicium
+Silver		Argent
+Sodium		Sodium
+Sulfur		Soufre
+Tin		Etain
+Titanium	Titane
+Uranium		Uranium
+Vanadium	Vanadium
+Zinc		Zinc
+
+# End matter
+instructionsHeader	Instructions
+instructions	Les cartes sont réparties entre les joueurs. Le joueur qui commence lit l'un des nombres sur la carte en haut de son paquet (par exemple: "Nombre atomique: 6"). Chaque joueur donne alors la valeur du même nombre pour la carte qui se trouve au sommet de son propre paquet. Le joueur qui a donné le plus grand nombre remporte les cartes des autres joueurs, et les met en bas de son paquet. Dans le cas de la masse atomique et de la densité, le gagnant est au contraire le joueur avec le plus faible nombre. Le gagnant du tour choisit au tour suivant le nombre à donner. Le dernier joueur à avoir des cartes remporte la partie. Pour plus de détails, voir l'article sur Wikipédia (en anglais)  <a href="http://en.wikipedia.org/wiki/Top_trumps">Top Trumps</a>.
+licenseHeader	License
+license	The chemical element game cards</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.spinellis.gr" property="cc:attributionName" rel="cc:attributionURL">Diomidis Spinellis</a> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.<br />Based on work from <a xmlns:dct="http://purl.org/dc/terms/" href="http://en.wikipedia.org" rel="dct:source">en.wikipedia.org</a>.
+attributionsHeader	Article links and image attributions

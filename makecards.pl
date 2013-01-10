@@ -33,12 +33,27 @@ my %attribution;
 mkdir 'meta' unless (-d 'meta');
 mkdir 'images/elements' unless (-d 'images/elements');
 
+# Read element template
+my $fname;
+open(IN, $fname = "template.html") || die "Unable to open $fname: $!\n";
+my $htmlLicense;
+while (<IN>) {
+	$htmlLicense .= $_;
+	last if (/^-->/);
+}
+my $template = join('', <IN>);
+
+binmode STDOUT, ":utf8";
+
 print qq{
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html
 	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="$language">
+
+$htmlLicense
+
 <head>
 <title>Elements</title>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
@@ -49,8 +64,7 @@ print qq{
 };
 
 # Read local translations
-my $fname;
-open(IN, $fname = "localize/translate.$language") || die "Unable to open $fname: $!\n";
+open(IN, "<:encoding(UTF-8)", $fname = "localize/translate.$language") || die "Unable to open $fname: $!\n";
 my %localName;
 while(<IN>) {
 	chop;
@@ -82,10 +96,6 @@ if ($language eq 'en') {
 	$englishStyle = '';
 }
 
-
-# Read element template
-open(IN, $fname = "template.html") || die "Unable to open $fname: $!\n";
-my $template = join('', <IN>);
 
 my @files = <data/*.info>;
 
@@ -185,7 +195,7 @@ for my $f (@files) {
 				system(qq{wget --local-encoding=UTF-8 -O meta/$englishName.txt "http://en.wikipedia.org/wiki/File:$image"});
 			}
 			if (! -r "images/elements/$englishName.jpg") {
-				open(META, "meta/$englishName.txt") || die "Unable to open meta/$englishName.txt: $!\n";
+				open(META, "<:encoding(UTF-8)", "meta/$englishName.txt") || die "Unable to open meta/$englishName.txt: $!\n";
 				while(<META>) {
 					if (/<div class="fullMedia"><a href="([^"]*)"/) {
 						my $url = $1;
@@ -195,7 +205,7 @@ for my $f (@files) {
 				}
 			}
 			# Get author link
-			open(META, "meta/$englishName.txt") || die "Unable to open meta/$englishName.txt: $!\n";
+			open(META, "<:encoding(UTF-8)", "meta/$englishName.txt") || die "Unable to open meta/$englishName.txt: $!\n";
 			while(<META>) {
 				if (/Author</) {
 					$attribution{$englishName} = <META>;

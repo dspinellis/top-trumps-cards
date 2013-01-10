@@ -29,6 +29,10 @@ my $elementCount = 0;
 
 my %attribution;
 
+# Prepare directories
+mkdir 'meta' unless (-d 'meta');
+mkdir 'images/elements' unless (-d 'images/elements');
+
 print qq{
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html

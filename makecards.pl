@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #
-# Copyright 2012 Diomidis Spinellis
+# Copyright 2012-13 Diomidis Spinellis
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -145,7 +145,7 @@ for my $v (@locVars) {
 
 # Process all element files
 for my $f (@files) {
-	open(IN, $f) || die "Unable to open $f: $1\n";
+	open(IN, "<:encoding(UTF-8)", $f) || die "Unable to open $f: $1\n";
 	my $localName;
 	my $englishName;
 	my $symbol;
@@ -182,13 +182,14 @@ for my $f (@files) {
 			}
 			$image = $1;
 			if (! -r "meta/$englishName.txt") {
-				system(qq{wget -O meta/$englishName.txt "http://en.wikipedia.org/wiki/File:$image"});
+				system(qq{wget --local-encoding=UTF-8 -O meta/$englishName.txt "http://en.wikipedia.org/wiki/File:$image"});
 			}
 			if (! -r "images/elements/$englishName.jpg") {
 				open(META, "meta/$englishName.txt") || die "Unable to open meta/$englishName.txt: $!\n";
 				while(<META>) {
 					if (/<div class="fullMedia"><a href="([^"]*)"/) {
-						system(qq{wget -O "images/elements/$englishName.jpg" "http:$1"});
+						my $url = $1;
+						system(qq{wget --local-encoding=UTF-8 -O "images/elements/$englishName.jpg" "http:$url"});
 						last;
 					}
 				}

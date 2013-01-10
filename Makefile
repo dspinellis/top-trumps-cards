@@ -38,4 +38,4 @@ cards-fr.html: $(SRCFILES) localize/translate.fr
 
 # Fetch the elements' physical data
 data:
-	(mkdir -p data && cd tools && sh getinfo.pl)
+	(mkdir -p data && cd tools && sh getinfo.sh)

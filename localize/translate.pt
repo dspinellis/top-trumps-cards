@@ -1,0 +1,79 @@
+#
+# English localization
+#
+# Copyright 2012 Diomidis Spinellis
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+#
+
+# Number formatting
+thousandSeparator	.
+decimalSeparator	,
+
+# Labels
+lblAtomicNumber	Número atômico
+lblAtomicWeight	Peso atômico
+lblMelt		Ponto de fusão
+lblBoil		Ponto de ebulição
+lblDensity	Densidade
+lblSoundSpeed	Velocidade do som
+
+# Phase names
+solid		sólido
+liquid		líquido
+gas		gás
+
+# Element names
+Aluminium	Alumínio
+Arsenic		Arsênio
+Boron		Boro
+Calcium		Cálcio
+Carbon		Carbono
+Chlorine	Cloro
+Chromium	Cromo
+Cobalt		Cobalto
+Copper		Cobre
+Fluorine	Flúor
+Gold		Ouro
+Helium		Hélio
+Hydrogen	Hidrogênio
+Iodine		Iodo
+Iron		Ferro
+Lead		Chumbo
+Magnesium	Magnésio
+Mercury		Mercúrio
+Molybdenum	Molibdênio
+Neon		Néon
+Nickel		Níquel
+Nitrogen	Nitrogen
+Oxygen		Oxigênio
+Phosphorus	Fósforo
+Platinum	Platina
+Potassium	Potássio
+Selenium	Selênio
+Silicon		Silicono
+Silver		Prata
+Sodium		Sódio
+Sulfur		Enxofre
+Tin		Tin
+Titanium	Titânio
+Uranium		Urânio
+Vanadium	Vanádio
+Zinc		Zinco
+
+# End matter
+instructionsHeader	Instruções
+instructions	As cartas são divididas entre os jogadores. O jogador que começa o jogo lê um número da carta no topo de seu bolo (e.g. "número atômico 6"). Ganha o maior número (ou menor no caso de peso atômico e densidade), recolhendo as cartas dos demais jogadores, colocando-as no final de seu bolo. O próximo número é lido pelo vencedor da rodada. Vence o jogador que recolher todas as cartas. Veja também o artigo na Wikipedia <a href="http://pt.wikipedia.org/wiki/Super_trunfo">Super Trunfo</a>.
+licenseHeader	License
+license	<span>O jogo de cartas dos elementos químicos </span> por <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.spinellis.gr" property="cc:attributionName" rel="cc:attributionURL">Diomidis Spinellis</a> é licenciado sob a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.<br />Baseado em trabalho da <a xmlns:dct="http://purl.org/dc/terms/" href="http://en.wikipedia.org" rel="dct:source">en.wikipedia.org</a>.
+attributionsHeader	Links para artigos e autoria das imagens
